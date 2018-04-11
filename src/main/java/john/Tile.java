@@ -22,4 +22,14 @@ public class Tile {
   public CollisionMap getCollisionMap(byte collisionLayer) {
     return collisionLayers.get(collisionLayer);
   }
+  
+  public java.awt.image.BufferedImage draw() {
+    if (tileObject == null) {
+      for (int y = 0; y < pixels.length; y++) {
+        for (int x = 0; x < pixels[y].length; x++) {
+          pixels[y][x]
+        }
+      }
+    }
+  }
 }
